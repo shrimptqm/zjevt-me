@@ -1,13 +1,19 @@
 ---
-created:  2021-08-09 10:18
+created: 2021-08-09 10:18
 modified: 2022-04-22 周五 09:59
-aliases: [Markdown教程,MD教程]
-obsidianUIMode: preview
-tags: ["#Markdown #Obsidian"] 
-source: 'https://publish.obsidian.md/csj-obsidian/0+-+Obsidian/Markdown/MarkDown%E8%B6%85%E7%BA%A7%E6%95%99%E7%A8%8B+Obsidian%E7%89%88'
-author: 成雙醬
+aliases:
+  - Markdown教程
+  - MD教程
+tags:
+  - "#Markdown"
+  - "#Obsidian"
+---
 ---
 
+source: https://publish.obsidian.md/csj-obsidian/0+-+Obsidian/Markdown/MarkDown%E8%B6%85%E7%BA%A7%E6%95%99%E7%A8%8B+Obsidian%E7%89%88
+author: 成雙醬
+
+---
 # 什么是 Markdown?
 1. **Markdown** 是一款轻量级标记语言，不同于HTML **(Hypertext Markup Language)**，**Markdown** 的语法非常简单，且容易上手
 2. **Markdown** 以 **纯文本格式** 编写文档，依赖键盘而非鼠标，专注于**写作本身**，感受**书写**的魅力
