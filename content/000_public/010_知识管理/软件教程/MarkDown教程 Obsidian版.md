@@ -1,9 +1,5 @@
 ---
-created: 2021-08-09 10:18
-modified: 2022-04-22 周五 09:59
-aliases:
-  - Markdown教程
-  - MD教程
+draft: false
 tags:
   - "#Markdown"
   - "#Obsidian"
