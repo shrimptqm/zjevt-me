@@ -2,7 +2,7 @@
 title: homepage
 draft: false
 tags:
-  - example-tag
+  - 知识管理
 ---
 
 欢迎来到ME_brain社区！
@@ -14,3 +14,8 @@ tags:
 - [[02_文档写作规范|文档写作规范]]
 - [[08_奖惩机制|奖惩机制]]
 - [[09_FAQ|FAQ]]
+
+# 知识管理相关基础知识
+
+- [[DIKW]] [[DIKWP]]
+- [[PSCA]]
