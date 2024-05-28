@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "ME_BrainV2",
+    pageTitle: "ME_Brain",
     enableSPA: false,
     enablePopovers: true,
     analytics: {
