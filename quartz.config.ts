@@ -15,9 +15,9 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     baseUrl: "notes.yxy.ninja",
-    ignorePatterns: ["10_private", "Templates", ".obsidian", "Personal", "Archive", "Omnivore", "**/*.excalidraw.md", "rawNotes"],
+    ignorePatterns: ["private", "Templates", ".obsidian", "Personal", "Archive", "Omnivore", "**/*.excalidraw.md", "rawNotes"],
     defaultDateType: "modified",
-    locale: en-US",
+    locale: "en-US",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
