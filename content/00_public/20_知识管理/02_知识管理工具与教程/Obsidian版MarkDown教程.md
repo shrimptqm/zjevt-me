@@ -3,10 +3,12 @@ draft: false
 tags:
   - "#Markdown"
   - "#Obsidian"
+Author:
+  - 成雙醬
 ---
 ---
 
-source: https://publish.obsidian.md/csj-obsidian/0+-+Obsidian/Markdown/MarkDown%E8%B6%85%E7%BA%A7%E6%95%99%E7%A8%8B+Obsidian%E7%89%88
+本文引自: https://publish.obsidian.md/csj-obsidian/0+-+Obsidian/Markdown/MarkDown%E8%B6%85%E7%BA%A7%E6%95%99%E7%A8%8B+Obsidian%E7%89%88
 
 author: 成雙醬
 
