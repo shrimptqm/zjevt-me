@@ -19,18 +19,7 @@ export default (() => {
     const ogImagePath = `https://${cfg.baseUrl}/static/og-image.png`
 
     return (
-      <head>
-        <script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?c7a22fad6f8728edcc5e34550ba90fc7";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>    
-
-
+      <head>    
         <title>{title}</title>
         <meta charSet="utf-8" />
         {cfg.theme.cdnCaching && cfg.theme.fontOrigin === "googleFonts" && (
@@ -56,6 +45,15 @@ var _hmt = _hmt || [];
         {js
           .filter((resource) => resource.loadTime === "beforeDOMReady")
           .map((res) => JSResourceToScriptElement(res, true))}
+       <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?c7a22fad6f8728edcc5e34550ba90fc7";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>   
       </head>
     )
   }
