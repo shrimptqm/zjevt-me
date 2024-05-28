@@ -8,16 +8,16 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "CS Notes",
+    pageTitle: "ME_Brain",
     enableSPA: false,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
     baseUrl: "notes.yxy.ninja",
-    ignorePatterns: ["private", "Templates", ".obsidian", "Personal", "Archive", "Omnivore", "**/*.excalidraw.md", "rawNotes"],
+    ignorePatterns: ["10_private", "Templates", ".obsidian", "Personal", "Archive", "Omnivore", "**/*.excalidraw.md", "rawNotes"],
     defaultDateType: "modified",
-    locale: "en-US",
+    locale: "zh-CN",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
