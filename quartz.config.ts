@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     baseUrl: "notes.yxy.ninja",
     ignorePatterns: ["10_private", "Templates", ".obsidian", "Personal", "Archive", "Omnivore", "**/*.excalidraw.md", "rawNotes"],
     defaultDateType: "modified",
-    locale: "zh-CN",
+    locale: en-US",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
