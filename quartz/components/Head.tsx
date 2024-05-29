@@ -45,12 +45,12 @@ export default (() => {
         {js
           .filter((resource) => resource.loadTime === "beforeDOMReady")
           .map((res) => JSResourceToScriptElement(res, true))}        
-      <script>
-          var _hmt = _hmt || [];
+        <script>
+          let _hmt = _hmt || [];
           (function() {
-            var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?c7a22fad6f8728edcc5e34550ba90fc7";
-            var s = document.getElementsByTagName("script")[0]; 
+            let hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?c7a22fad6f8728edcc5e34550ba90fc7"; 
+            let s = document.getElementsByTagName("script")[0]; 
             s.parentNode.insertBefore(hm, s);
           })();
         </script>
