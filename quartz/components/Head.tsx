@@ -30,7 +30,7 @@ export default (() => {
           </>
         )}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        //<meta property="og:site_name" content="Notes by ZJEVT-ME" />
+        <meta property="og:site_name" content="Notes by ZJEVT-ME" />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         {cfg.baseUrl && <meta property="og:image" content={ogImagePath} />}
@@ -43,17 +43,8 @@ export default (() => {
           <link key={href} href={href} rel="stylesheet" type="text/css" spa-preserve />
         ))}
         {js
-          .filter((resource) => resource.loadTime === "beforeDOMReady")
+          .filter((resource) => resource.loadTime === "beforeDOMReady") //zcf 
           .map((res) => JSResourceToScriptElement(res, true))}        
-        <script>
-          window._hmt = window._hmt || [];  
-          (function() {
-            const hm = document.createElement("script"); 
-            hm.src = "https://hm.baidu.com/hm.js?c7a22fad6f8728edcc5e34550ba90fc7";
-            const s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
-          })();
-        </script>
       </head>
     )
   }
