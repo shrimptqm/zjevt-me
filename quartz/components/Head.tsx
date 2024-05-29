@@ -46,11 +46,11 @@ export default (() => {
           .filter((resource) => resource.loadTime === "beforeDOMReady")
           .map((res) => JSResourceToScriptElement(res, true))}        
         <script>
-          let _hmt = _hmt || [];
+          window._hmt = window._hmt || [];  
           (function() {
-            let hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?c7a22fad6f8728edcc5e34550ba90fc7"; 
-            let s = document.getElementsByTagName("script")[0]; 
+            const hm = document.createElement("script"); 
+            hm.src = "https://hm.baidu.com/hm.js?c7a22fad6f8728edcc5e34550ba90fc7";
+            const s = document.getElementsByTagName("script")[0];
             s.parentNode.insertBefore(hm, s);
           })();
         </script>
