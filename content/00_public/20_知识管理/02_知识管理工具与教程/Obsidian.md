@@ -3,6 +3,12 @@ draft:
 Author:
   - Tang Qinmin
 ---
+## [什么是 Obsidian](https://publish.obsidian.md/help-zh/Obsidian/Obsidian)
+
+Obsidian 既是一个 Markdown 编辑器，也是一个知识管理软件。
+
+你可以简单地将 Obsidian 作为一个 Markdown 编辑器，来编辑、预览 Markdown 文件。但如果你希望更好地使用它，请记住它真正的力量在于管理密集的网络化知识库。
+
 Obsidian是一款非常受欢迎的双链笔记软件，它允许用户以非线性的方式组织和链接笔记。以下是Obsidian的一些主要特点：
 
 1. **双链笔记**：Obsidian的核心功能是支持双向链接，用户可以在不同的笔记之间创建链接，形成一个复杂的知识网络。
@@ -16,3 +22,4 @@ Obsidian是一款非常受欢迎的双链笔记软件，它允许用户以非线
 10. **免费和付费版本**：Obsidian提供了免费版本，但也有一些付费功能，如发布和共享笔记的能力。
 
 总的来说，Obsidian是一个强大而灵活的笔记工具，适合那些需要以非线性方式组织信息和知识的人。
+
