@@ -1,10 +1,10 @@
 ---
 uid: 20240712144205
 title: Obsidian
-tags: 
+tags: []
 author: 
 draft: 
-modified: 20240712144538
+modified: 20240726200656
 Author: [Tang Qinmin]
 ---
 

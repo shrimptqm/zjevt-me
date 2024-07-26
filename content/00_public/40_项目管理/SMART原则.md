@@ -1,10 +1,10 @@
 ---
 uid: 20240712144205
-title: SMART原则
-tags: 
+title: SMART 原则
+tags: []
 author: 
 draft: false
-modified: 20240712144547
+modified: 20240726200701
 ---
 
 # SMART 原则

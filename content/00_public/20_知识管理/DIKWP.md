@@ -1,10 +1,10 @@
 ---
 uid: 20240712144205
-title: DIKWP模型
-tags: 
+title: DIKWP 模型
+tags: []
 author: 
 draft: 
-modified: 20240712144538
+modified: 20240726200656
 Author: [Tang Qinmin]
 ---
 

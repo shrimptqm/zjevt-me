@@ -5,7 +5,7 @@ tags: []
 author: 
 type: [Macro]
 draft: false
-modified: 20240712144547
+modified: 20240726200701
 ---
 
 # Scrum

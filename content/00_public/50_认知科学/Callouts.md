@@ -1,11 +1,19 @@
 ---
+uid: 20240718105950
+title: Callouts
+tags: 
+author: 
 draft: false
+modified: 20240726200704
 ---
+
+# Callouts
+
 [Callouts - Obsidian Help](https://help.obsidian.md/Editing+and+formatting/Callouts)
 
 Use callouts to include additional content without breaking the flow of your notes.
 
-To create a callout, add `[!info]` to the first line of a blockquote, where `info` is the _type identifier_. The type identifier determines how the callout looks and feels. To see all available types, refer to [Supported types](https://help.obsidian.md/Editing+and+formatting/Callouts#Supported types).
+To create a callout, add `[!info]` to the first line of a blockquote, where `info` is the _type identifier_. The type identifier determines how the callout looks and feels. To see all available types, refer to [Supported types](<https://help.obsidian.md/Editing+and+formatting/Callouts#Supported> types).
 
 ```markdown
 > [!info]
@@ -16,8 +24,8 @@ To create a callout, add `[!info]` to the first line of a blockquote, where `inf
 
 Info
 
-Here's a callout block.  
-It supports **Markdown**, [Wikilinks](https://help.obsidian.md/Linking+notes+and+files/Internal+links) and [embeds](https://help.obsidian.md/Linking+notes+and+files/Embed+files)!  
+Here's a callout block.
+It supports **Markdown**, [Wikilinks](https://help.obsidian.md/Linking+notes+and+files/Internal+links) and [embeds](https://help.obsidian.md/Linking+notes+and+files/Embed+files)!
 ![[10_项目/Obsidian/attachments/b39ecdba3c2b682bd4fb46ef3159ffab_MD5.jpg]]
 
 Callouts are also supported natively on [Obsidian Publish](https://help.obsidian.md/Obsidian+Publish/Introduction+to+Obsidian+Publish).
@@ -59,9 +67,10 @@ Are callouts foldable?
 You can nest callouts in multiple levels.
 
 > [!question] Can callouts be nested?
+>
 > > [!todo] Yes!, they can.
-> > > [!example]  You can even use multiple layers of nesting.
-
+> >
+> > > [!example] You can even use multiple layers of nesting.
 
 Can callouts be nested?
 
@@ -89,10 +98,10 @@ The value of the `data-callout` attribute is the type identifier you want to use
 
 Note about lucide icon versions
 
-Obsidian updates Lucide icons periodically. The current version included is shown below; use these or earlier icons in custom callouts.  
+Obsidian updates Lucide icons periodically. The current version included is shown below; use these or earlier icons in custom callouts.
 
-Version `0.268.0`  
-ISC License  
+Version `0.268.0`
+ISC License
 Copyright (c) 2020, Lucide Contributors
 
 SVG icons
@@ -109,7 +118,7 @@ You can use several callout types and aliases. Each type comes with a different 
 
 To use these default styles, replace `info` in the examples with any of these types, such as `[!tip]` or `[!warning]`.
 
-Unless you [Customize callouts](https://help.obsidian.md/Editing+and+formatting/Callouts#Customize callouts), any unsupported type defaults to the `note` type. The type identifier is case-insensitive.
+Unless you [Customize callouts](<https://help.obsidian.md/Editing+and+formatting/Callouts#Customize> callouts), any unsupported type defaults to the `note` type. The type identifier is case-insensitive.
 
 Note
 
@@ -135,7 +144,6 @@ Info
 ---
 
 Todo
-
 
 > [!todo]
 > Lorem ipsum dolor sit amet
@@ -192,7 +200,6 @@ Danger
 > [!danger]
 > Lorem ipsum dolor sit amet
 
-
 Alias: `error`
 
 ---
@@ -209,11 +216,9 @@ Example
 > [!example]
 > Lorem ipsum dolor sit amet
 
-
 ---
 
 Quote
-
 
 > [!quote]
 > Lorem ipsum dolor sit amet

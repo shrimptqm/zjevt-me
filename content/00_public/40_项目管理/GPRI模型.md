@@ -1,10 +1,10 @@
 ---
 uid: 20240712144205
-title: GPRI模型
-tags: 
+title: GPRI 模型
+tags: []
 author: 
 draft: false
-modified: 20240712144547
+modified: 20240726200701
 ---
 
 # GPRI 模型
